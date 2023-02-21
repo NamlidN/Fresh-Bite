@@ -1,0 +1,32 @@
+.cardBilderContainer {
+  width: 100%;
+  height: 60%;
+}
+
+.cardBilder {
+  display: flex;
+  width: 10rem;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto 0 auto;
+  mix-blend-mode: darken;
+}
+
+.PriceRating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.name {
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.like-btn {
+  position: absolute;
+}

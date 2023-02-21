@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Poppins-Regular";
+
+}
+
+.routeLink {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./assets/fonts/Poppins-Black.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}

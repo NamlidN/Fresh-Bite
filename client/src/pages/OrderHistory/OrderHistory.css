@@ -1,0 +1,97 @@
+.OrderPage {
+    height: max-content;
+    margin-bottom: 8rem;
+}
+
+.OrderContainer {
+    margin: 1rem auto;
+    width: 90%;
+    padding: .5rem;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.OrderNumberAndPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.OrderNumber {
+    font-size: 20pt;
+    color: rgba(17, 17, 17, 0.677);
+}
+
+.OrderPrice {
+    color: rgb(3, 125, 28);
+}
+
+.DateAndStatusContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.St1And2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bolder;
+}
+
+.OrderDate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Pending {
+    padding: .2rem;
+    border-radius: .3rem 0 0 .3rem;
+    background-color: rgb(18, 196, 196);
+    color: white;
+}
+
+.Processing {
+    padding: .2rem;
+    border-radius: .3rem 0 0 .3rem;
+    background-color: rgb(255, 187, 0);
+    color: white;
+}
+
+.Canceled {
+    padding: .2rem;
+    border-radius: .3rem 0 0 .3rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.Shipped {
+    padding: .2rem;
+    border-radius: .3rem 0 0 .3rem;
+    background-color: #C73BD6;
+    color: white;
+}
+
+.Picked {
+    padding: .2rem;
+    border-radius: .3rem 0 0 .3rem;
+    background-color: #3b5fd6;
+    color: white;
+}
+
+.Refunded {
+    padding: .2rem;
+    border-radius: 0 .3rem .3rem 0;
+    background-color: rgb(129, 175, 137);
+    color: white;
+}
+
+.Paid {
+    padding: .2rem;
+    border-radius: 0 .3rem .3rem 0;
+    background-color: green;
+    color: white;
+}

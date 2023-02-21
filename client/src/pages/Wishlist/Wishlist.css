@@ -1,0 +1,28 @@
+.wishTrash {
+  width: 25px;
+  height: 25px;
+}
+
+.trashIcon {
+  width: 100%;
+}
+
+.empty-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishlist-main-container {
+  height: 100vh;
+  padding-bottom: 5rem;
+  background-color: #f5f5ff;
+}
+
+.wishlist-wishcards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

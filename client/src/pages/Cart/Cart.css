@@ -1,0 +1,108 @@
+.Cartbody{
+background-color: white;
+}
+.cartName{
+    width: 8.5rem;
+}
+
+.change{
+    opacity: 0;
+}
+.DeleteAll{
+    margin-left: 7rem;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    background-color: inherit;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15pt;
+}
+.card {
+    margin: 1rem 0 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 7.1rem;
+font-size: 13pt;
+}
+
+.innerCard {
+    border-radius: .5rem;
+    margin: 0 .5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100rem;
+    gap: .5rem;
+    background-color: rgb(240, 240, 240);
+}
+
+.card img {
+    width: 7rem;
+    height: 7rem;
+    mix-blend-mode: darken;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.detailsCart {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.UnitUratingCart {
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+}
+
+.radio {
+    accent-color: rgb(6, 230, 6);
+}
+
+.Rechner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rechner2 button {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    background-color: inherit;
+    color: rgb(43, 171, 50);
+    font-size: 30pt;
+}
+
+.mittelTeil {
+    margin: 1rem;
+}
+
+
+
+
+.CheckoutContainer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    bottom: 5rem;
+}
+.checkout{
+    background-color:rgb(27, 199, 36);
+    color: white;
+    font-weight: bolder;
+    font-size: 25pt;
+    border-radius: 1rem;
+    border: none;
+    left: 5%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}

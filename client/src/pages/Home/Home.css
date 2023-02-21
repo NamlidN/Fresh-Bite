@@ -1,0 +1,225 @@
+.FilterBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  background-image: url(../../img/Filterimg.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: flex-start;
+
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.HomePage {
+  margin-bottom: 6rem;
+  background-color: #f5f5f5;
+}
+
+.top {
+  background-color: rgb(64, 182, 18);
+  width: 100%;
+  height: 2rem;
+}
+
+.sale {
+  width: 80%;
+  display: block;
+
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem .5rem 0rem .5rem;
+
+  flex-direction: column;
+}
+
+/* .TGDeals {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 97.5%;
+  margin: 0 auto;
+
+} */
+
+.ZGDeals {
+  height: 13rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap
+}
+
+.TodayGroceryDealsCards {
+  width: 12rem;
+  height: 12rem;
+  margin: .5rem;
+
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(233, 233, 233);
+  border-radius: 1.5rem;
+  font-size: 15pt;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.cardBilderContainer {
+  width: 100%;
+  height: 60%;
+}
+
+.cardBilder {
+  display: flex;
+  width: 10rem;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto 0 auto;
+  mix-blend-mode: darken;
+}
+
+.PriceRating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: .5rem;
+  color: rgba(42, 42, 42, 0.839);
+
+}
+
+.PriceRating2 {
+  font-family: monospace;
+
+}
+
+.GanzOben {
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.name {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: .6rem;
+  color: rgba(42, 42, 42, 0.798);
+}
+
+.name2 {
+  font-family: fantasy;
+  margin: 0 1rem;
+}
+
+.pommes {
+  display: block;
+  width: 97%;
+  margin: 0.5rem auto;
+}
+
+.GMDeals {
+  height: 13rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap
+}
+
+.GroceryMemberDealsCards {
+  width: 13rem;
+  height: 12rem;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(233, 233, 233);
+  border-radius: 1.5rem;
+  font-size: 15pt;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: rgba(156, 23, 23, 0.686);
+
+}
+
+.salePrice {
+  color: rgba(43, 156, 23, 0.494);
+}
+
+.carousel {
+  width: 100%;
+  height: 13.5rem;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../../img/sorti.png");
+  background-size: 100% 3.6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-item {
+  width: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 100%;
+  animation: 12s autoplay infinite;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: .9rem;
+}
+
+@keyframes autoplay {
+  0% {
+    left: 100%;
+  }
+
+  50% {
+    left: 0%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+.carousel-item:nth-child(1) {
+  animation-delay: -6s;
+}
+
+.carousel-item:nth-child(2) {
+  animation-delay: 0s;
+}
+
+.ueberschreift {
+  color: rgba(18, 18, 18, 0.527);
+  text-align: center;
+  font-family: monospace;
+}
+
+.Fav{
+  position: relative;
+top: -2.3rem;
+right: -6.4rem;
+}
+

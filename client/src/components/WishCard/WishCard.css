@@ -1,0 +1,48 @@
+.wish-card-container {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.wish-card-img-container {
+  width: 50%;
+}
+
+.wish-card-img-container img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.wish-card-product-container {
+  width: 100%;
+}
+
+.wishlist-like-btn-container {
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.wishlist-like-btn {
+  width: 35px;
+  height: 35px;
+}
+
+.wishlist-price-tag {
+  font-size: 1.3rem;
+  font-family: "poppins-medium";
+}
+
+.wishlist-rating-review {
+  font-size: 0.8rem;
+  color: #777777;
+}

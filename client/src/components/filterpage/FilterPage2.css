@@ -1,0 +1,66 @@
+.ff-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+#link {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#ff {
+    padding-left: 20px;
+}
+
+#clear {
+    border: none;
+    background: none;
+}
+
+.sort-btn {
+    border: none;
+    border-radius: .9em;
+    padding: 4px;
+    background: none;
+    background-color: #d8eedc;
+    color: #333;
+    margin: 0 2px;
+
+}
+
+.active {
+    background: #40aa54;
+    color: white;
+}
+
+.cat-btn {
+    border: none;
+    border-radius: .9em;
+    padding: 4px;
+    background: none;
+    background-color: #d8eedc;
+    color: #333;
+    margin: 0 2px;
+}
+
+.active {
+    background: #40aa54;
+    color: white;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#submit_btn {
+    margin-top: 250px;
+    border: none;
+    border-radius: 1em;
+    padding: 4px;
+    background: none;
+    background-color: #d8eedc;
+    color: #333;
+    padding: 20px 40px;
+}
